@@ -8,4 +8,3 @@ for i in range(1, 1000):
         amount += i
 
 print(amount)
-# 233168
