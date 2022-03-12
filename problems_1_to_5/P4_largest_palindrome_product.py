@@ -3,9 +3,6 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 '''
-from audioop import mul
-
-
 def reverse_number(number : int) -> int:
     "Returns the reverse of a number"
     reverse : int = 0
