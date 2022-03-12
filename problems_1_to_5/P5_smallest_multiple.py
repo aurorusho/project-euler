@@ -5,15 +5,15 @@ What is the smallest positive number that is evenly divisible by all of the numb
 '''
 
 def main() -> None:
-    i : int = 2
+    top_number : int = 20
+    i : int = top_number
     while True:
-        for n in range(1, 20 + 1):
+        for n in range(1, top_number):
             if i % n != 0:
                 break
         # If loop for ends without breaking
         else: break
-        # Number should be pair, because n % 2 should be 0
-        i += 2
+        i += top_number
     print(i)
 
 
