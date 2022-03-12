@@ -29,9 +29,11 @@ def get_prime_factors(n : int) -> list:
 
     return factor_lst
 
+
 def main() -> None:
     n : int = 600851475143
     print(get_prime_factors(n)[-1])
+
 
 if __name__ == '__main__':
     main()
